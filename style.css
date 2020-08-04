@@ -2,16 +2,109 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Recursive&display=swap');
 
-	/* --- Components  desing --- */
-
-@import url("components/banner.css");
-@import url("components/navbar.css");
-@import url("components/footer.css");
-@import url("components/cards.css");
-@import url("components/blog.css");
-@import url("components/form.css");
-
 * {
 	font-family: 'Open Sans', sans-serif;
 }
+		/* Navbar */
 
+#navbarMenu {
+    text-align: center;
+}
+#navbarMenu a {
+    color: #f4f4f4;
+}
+#navbarMenu a:hover {
+    color: #4a4a4a;
+    transition: 0.6s;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://images.pexels.com/photos/939835/pexels-photo-939835.jpeg?cs=srgb&dl=color-cuidado-dedos-esmalte-de-unas-939835.jpg&fm=jpg");
+    background-position: center;
+    background-size: cover;
+    height: 89vh;
+    color: rgb(255, 255, 255);
+}
+		/* Blog */
+.blog {
+	background-color: #ffc7c7;
+}
+.blog a{
+	border: 1px solid #4a4a4a;
+	color: #4a4a4a;
+	padding: 10px 30px;
+} 
+.blog a:hover {
+	color: #f4f4f4;
+	background-color: #4a4a4a;
+	transition: 0.6s;
+}
+		/* Card */
+.text-card {
+	color: #f4f4f4;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+	background-position: center;
+    background-size: cover;
+}
+.text-card a {
+	border: 1px solid #f4f4f4;
+	color: #f4f4f4;
+	padding: 10px 30px;
+}
+.text-card a:hover {
+	color: #4a4a4a;
+	background-color: #f4f4f4;
+	transition: 0.6s;
+}
+		/* Footer */
+
+.footer {
+    background: #6ebfb5;
+    color: rgba(0,0,0,0.3);
+}
+.footer a {
+    color: black;
+    opacity: 0.35;
+    text-decoration: none;
+    font-size: 50px;
+}
+.footer a:hover {
+    color: #f4f4f4;
+    opacity: 6;
+    transition: 0.6s;
+}
+.footer-links a {
+    padding: 0px 10px;
+}
+.footer-copyright {
+    background-color: #2d6e67;
+    padding: 0;
+}
+.footer-copyright a {
+    font-size: 15px;
+}
+@media (max-width: 768px) { 
+    .footer-2{
+        flex-direction: column;
+    }
+ }
+		/* Form */
+.form {
+	background-color: #eeeeee;
+}
+.img-form {
+	border: 2px solid #2b2b2b;
+	padding: 0;
+	box-shadow: 10px 5px #dbdbdb;
+}
+.form-group button {
+	border: 1px solid #4a4a4a;
+	background-color: #fc8067;
+	color: #f4f4f4;
+	padding: 10px 30px;
+}
+.form-group button:hover {
+	color: #f4f4f4;
+	background-color: #f73e19;
+	transition: 0.6s;
+}

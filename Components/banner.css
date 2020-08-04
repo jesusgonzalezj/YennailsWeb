@@ -1,8 +1,0 @@
-.banner {
-    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://images.pexels.com/photos/939835/pexels-photo-939835.jpeg?cs=srgb&dl=color-cuidado-dedos-esmalte-de-unas-939835.jpg&fm=jpg");
-    background-position: center;
-    background-size: cover;
-    height: 89vh;
-    color: rgb(255, 255, 255);
-}
-/* tomar la totalidad de la pag vh */

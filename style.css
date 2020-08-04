@@ -1,0 +1,17 @@
+	/* --- Google Fonts --- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Recursive&display=swap');
+
+	/* --- Components  desing --- */
+
+@import url("components/banner.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
+@import url("components/cards.css");
+@import url("components/blog.css");
+@import url("components/form.css");
+
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+

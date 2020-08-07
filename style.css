@@ -6,7 +6,6 @@
 	font-family: 'Open Sans', sans-serif;
 }
 		/* Navbar */
-
 #navbarMenu {
     text-align: center;
 }
@@ -17,7 +16,7 @@
     color: #4a4a4a;
     transition: 0.6s;
 }
-
+		/* Banner */
 .banner {
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("https://images.pexels.com/photos/939835/pexels-photo-939835.jpeg?cs=srgb&dl=color-cuidado-dedos-esmalte-de-unas-939835.jpg&fm=jpg");
     background-position: center;
@@ -55,6 +54,9 @@
 	color: #4a4a4a;
 	background-color: #f4f4f4;
 	transition: 0.6s;
+}
+.card img {
+	width: 100%;
 }
 		/* Footer */
 
